@@ -3,13 +3,15 @@ module multiplicator
 go 1.24.6
 
 require (
+	github.com/go-chi/chi v1.5.5
+	github.com/go-chi/render v1.0.3
+	github.com/ilyakaznacheev/cleanenv v1.5.0
+	github.com/joho/godotenv v1.5.1
+)
+
+require (
 	github.com/BurntSushi/toml v1.5.0 // indirect
 	github.com/ajg/form v1.5.1 // indirect
-	github.com/go-chi/chi v1.5.5 // indirect
-	github.com/go-chi/render v1.0.3 // indirect
-	github.com/ilyakaznacheev/cleanenv v1.5.0 // indirect
-	github.com/joho/godotenv v1.5.1 // indirect
-	github.com/lpernett/godotenv v0.0.0-20230527005122-0de1d4c5ef5e // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	olympos.io/encoding/edn v0.0.0-20201019073823-d3554ca0b0a3 // indirect
 )
