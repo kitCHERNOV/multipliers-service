@@ -61,6 +61,7 @@ func main() {
 	router.Use(middleware.Logger)
 	router.Get("/get", rtp.MultiplierGenerator)
 
+	log.Println("Server is run on port " + cfg.Port)
 	if err := http.ListenAndServe(net.JoinHostPort(cfg.Host, cfg.Port), router); err != nil {
 		log.Fatal(err)
 	}
