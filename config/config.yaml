@@ -1,4 +1,6 @@
 server:
   host: "localhost"
-  port: "8080"
-amount: 10
+  port: "64333"
+multipliers:
+  lower_limit: 1.0
+  upper_limit: 10000.0
